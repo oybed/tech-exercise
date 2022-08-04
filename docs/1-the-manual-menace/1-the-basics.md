@@ -38,7 +38,7 @@
 
     ```zsh#test
     source ~/.zshrc
-    echo ${TEAM_NAME}
+    echo \$\{TEAM_NAME\}
     echo ${CLUSTER_DOMAIN}
     echo ${GIT_SERVER}
     ```
